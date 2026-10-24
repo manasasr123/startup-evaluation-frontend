@@ -1,6 +1,6 @@
 FROM node:20 AS build
 WORKDIR /app
-ARG VITE_API_URL=https://startupregistration-backend.onrender.com
+ARG VITE_API_URL=https://startup-evaluation-backend.onrender.com
 ENV VITE_API_URL=$VITE_API_URL
 COPY package*.json ./
 RUN npm install

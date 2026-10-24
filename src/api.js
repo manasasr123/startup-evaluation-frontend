@@ -1,4 +1,4 @@
-const BASE = (import.meta.env.VITE_API_URL || 'https://startupregistration-backend.onrender.com').replace(/\/+$/, '')
+const BASE = (import.meta.env.VITE_API_URL || 'https://startup-evaluation-backend.onrender.com').replace(/\/+$/, '')
 
 let auth = sessionStorage.getItem('auth') || ''
 
