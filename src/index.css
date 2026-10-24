@@ -1,0 +1,3 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:focus-visible { outline: 3px solid #E8A33D; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
